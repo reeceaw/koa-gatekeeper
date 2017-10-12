@@ -1,8 +1,15 @@
 {
   "name": "koa-gatekeeper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Koa middleware for whitelisting and blacklisting requests",
   "main": "index.js",
+  "keywords": [
+		"gatekeeper",
+		"express",
+		"whitelist",
+		"blacklist",
+		"requests"
+	],
   "directories": {
     "lib": "lib"
   },
@@ -18,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/reeceaw/koa-gatekeeper/issues"
   },
-  "homepage": "https://github.com/reeceaw/koa-gatekeeper#readme"
+  "homepage": "https://github.com/reeceaw/koa-gatekeeper#readme",
+  "dependencies": {
+    "chalk": "^2.1.0"
+  }
 }
