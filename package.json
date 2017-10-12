@@ -1,0 +1,22 @@
+{
+  "name": "koa-gatekeeper",
+  "version": "0.0.1",
+  "description": "Koa middleware for whitelisting and blacklisting requests",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reeceaw/koa-gatekeeper.git"
+  },
+  "author": "Reece Arratoonian-Walker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reeceaw/koa-gatekeeper/issues"
+  },
+  "homepage": "https://github.com/reeceaw/koa-gatekeeper#readme"
+}
