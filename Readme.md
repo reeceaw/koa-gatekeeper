@@ -62,7 +62,7 @@ router.get('/home', ctx => {
 });
 
 app
-  .use(gateKeeper.white({
+  .use(gateKeeper.whitelist({
     ips: [
       '127.0.0.1'
     ],
